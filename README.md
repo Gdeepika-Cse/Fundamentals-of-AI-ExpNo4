@@ -5,7 +5,7 @@
 <p>To ImplementA * Search algorithm for a Graph using Python 3.</p>
 <H3>Algorithm:</H3>
 
-``````
+```````
 // A* Search Algorithm
 1.  Initialize the open list
 2.  Initialize the closed list
@@ -91,14 +91,11 @@ def aStarAlgo(start_node, stop_node):
     print("Path does not exist!")
     return None
 
-
 def get_neighbors(v):
     return Graph_nodes.get(v, [])
 
-
 def heuristic(n):
     return H_dist[n]
-
 
 graph = defaultdict(list)
 
@@ -123,12 +120,10 @@ goal = input().strip()
 aStarAlgo(start, goal)
 ```
 ## Sample Graph I
-
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/b1377c3f-011a-4c0f-a843-516842ae056a)
 
 ## Sample Graph II</h2>
-
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/acbb09cb-ed39-48e5-a59b-2f8d61b978a3).
+![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/acbb09cb-ed39-48e5-a59b-2f8d61b978a3)
 
 ## OUTPUT:
 
